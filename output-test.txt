@@ -1,0 +1,255 @@
+run:
+Bun venit! Introduceti numarul de locuri disponibile:
+3
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+help
+help         - Afiseaza aceasta lista de comenzi
+add          - Adauga o noua persoana (inscriere)
+check        - Verifica daca o persoana este inscrisa la eveniment
+remove       - Sterge o persoana existenta din lista
+update       - Actualizeaza detaliile unei persoane
+guests       - Lista de persoane care participa la eveniment
+waitlist     - Persoanele din lista de asteptare
+available    - Numarul de locuri libere
+guests_no    - Numarul de persoane care participa la eveniment
+waitlist_no  - Numarul de persoane din lista de asteptare
+subscribe_no - Numarul total de persoane inscrise
+search       - Cauta toti invitatii conform sirului de caractere introdus
+quit         - Inchide aplicatia
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+add
+Se adauga o noua persoana...
+Introduceti numele de familie:
+Oprea
+Introduceti prenumele:
+Paula
+Introduceti email:
+paula.oprea@gmail.com
+Introduceti numar de telefon (format „+40733386463“):
++40723657841
+[Oprea Paula] Felicitari! Locul tau la eveniment este confirmat. Te asteptam!
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+add
+Se adauga o noua persoana...
+Introduceti numele de familie:
+Popescu
+Introduceti prenumele:
+Mihai
+Introduceti email:
+mihaita.popescu@yahoo.ro
+Introduceti numar de telefon (format „+40733386463“):
++40754326974
+[Popescu Mihai] Felicitari! Locul tau la eveniment este confirmat. Te asteptam!
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+help
+help         - Afiseaza aceasta lista de comenzi
+add          - Adauga o noua persoana (inscriere)
+check        - Verifica daca o persoana este inscrisa la eveniment
+remove       - Sterge o persoana existenta din lista
+update       - Actualizeaza detaliile unei persoane
+guests       - Lista de persoane care participa la eveniment
+waitlist     - Persoanele din lista de asteptare
+available    - Numarul de locuri libere
+guests_no    - Numarul de persoane care participa la eveniment
+waitlist_no  - Numarul de persoane din lista de asteptare
+subscribe_no - Numarul total de persoane inscrise
+search       - Cauta toti invitatii conform sirului de caractere introdus
+quit         - Inchide aplicatia
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+available
+Numarul de locuri ramase: 1
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+add
+Se adauga o noua persoana...
+Introduceti numele de familie:
+Georgescu
+Introduceti prenumele:
+Mara
+Introduceti email:
+mara.georgescu@yahoo.fr
+Introduceti numar de telefon (format „+40733386463“):
++40798452162
+[Georgescu Mara] Felicitari! Locul tau la eveniment este confirmat. Te asteptam!
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+add
+Se adauga o noua persoana...
+Introduceti numele de familie:
+Zanfir
+Introduceti prenumele:
+Gheorghe
+Introduceti email:
+gheorghe.zanfir@musica.ro
+Introduceti numar de telefon (format „+40733386463“):
++40751368492
+[Zanfir Gheorghe] Te-ai inscris cu succes in lista de asteptare si ai primit numarul de ordine 1. Te vom notifica daca un loc devine disponibil.
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+add
+Se adauga o noua persoana...
+Introduceti numele de familie:
+Marin
+Introduceti prenumele:
+Andrei
+Introduceti email:
+andrei.marin@robofun.ro
+Introduceti numar de telefon (format „+40733386463“):
++40732518469
+[Marin Andrei] Te-ai inscris cu succes in lista de asteptare si ai primit numarul de ordine 2. Te vom notifica daca un loc devine disponibil.
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+help
+help         - Afiseaza aceasta lista de comenzi
+add          - Adauga o noua persoana (inscriere)
+check        - Verifica daca o persoana este inscrisa la eveniment
+remove       - Sterge o persoana existenta din lista
+update       - Actualizeaza detaliile unei persoane
+guests       - Lista de persoane care participa la eveniment
+waitlist     - Persoanele din lista de asteptare
+available    - Numarul de locuri libere
+guests_no    - Numarul de persoane care participa la eveniment
+waitlist_no  - Numarul de persoane din lista de asteptare
+subscribe_no - Numarul total de persoane inscrise
+search       - Cauta toti invitatii conform sirului de caractere introdus
+quit         - Inchide aplicatia
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+check
+Alege modul de autentificare, tastand:
+"1" - Nume si prenume
+"2" - Email
+"3" - Numar de telefon (format "+40733386463")
+2
+Introduceti email: 
+andrei.marin@robofun.ro
+Persoana cu adresa de email andrei.marin@robofun.ro este inscris(a) la eveniment.
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+check
+Alege modul de autentificare, tastand:
+"1" - Nume si prenume
+"2" - Email
+"3" - Numar de telefon (format "+40733386463")
+3
+Introduceti numarul de telefon: 
++40732270886
+Persoana cu numarul de telefon +40732270886 nu este inscris(a) la eveniment.
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+guests
+	1 Nume: Oprea Paula, Email: paula.oprea@gmail.com, Telefon: +40723657841
+	2 Nume: Popescu Mihai, Email: mihaita.popescu@yahoo.ro, Telefon: +40754326974
+	3 Nume: Georgescu Mara, Email: mara.georgescu@yahoo.fr, Telefon: +40798452162
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+waitlist
+	1 Nume: Zanfir Gheorghe, Email: gheorghe.zanfir@musica.ro, Telefon: +40751368492
+	2 Nume: Marin Andrei, Email: andrei.marin@robofun.ro, Telefon: +40732518469
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+remove
+Alege modul de autentificare, tastand:
+"1" - Nume si prenume
+"2" - Email
+"3" - Numar de telefon (format "+40733386463")
+1
+Introduceti numele de familie: 
+Popescu
+Introduceti prenumele: 
+Mihai
+[Zanfir Gheorghe] Felicitari! Locul tau la eveniment este confirmat. Te asteptam!
+Stergerea persoanei s-a realizat cu succes.
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+help
+help         - Afiseaza aceasta lista de comenzi
+add          - Adauga o noua persoana (inscriere)
+check        - Verifica daca o persoana este inscrisa la eveniment
+remove       - Sterge o persoana existenta din lista
+update       - Actualizeaza detaliile unei persoane
+guests       - Lista de persoane care participa la eveniment
+waitlist     - Persoanele din lista de asteptare
+available    - Numarul de locuri libere
+guests_no    - Numarul de persoane care participa la eveniment
+waitlist_no  - Numarul de persoane din lista de asteptare
+subscribe_no - Numarul total de persoane inscrise
+search       - Cauta toti invitatii conform sirului de caractere introdus
+quit         - Inchide aplicatia
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+update
+Alege modul de autentificare, tastand:
+"1" - Nume si prenume
+"2" - Email
+"3" - Numar de telefon (format "+40733386463")
+3
+Introduceti numarul de telefon: 
++40723657841
+Alege campul de actualizat, tastand:
+"1" - Nume
+"2" - Prenume
+"3" - Email
+"4" - Numar de telefon (format "+40733386463")
+2
+Introduceti noul prenumele: 
+Alexandra
+Numele a fost schimbat cu succes
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+guests
+	1 Nume: Oprea Alexandra, Email: paula.oprea@gmail.com, Telefon: +40723657841
+	2 Nume: Georgescu Mara, Email: mara.georgescu@yahoo.fr, Telefon: +40798452162
+	3 Nume: Zanfir Gheorghe, Email: gheorghe.zanfir@musica.ro, Telefon: +40751368492
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+help
+help         - Afiseaza aceasta lista de comenzi
+add          - Adauga o noua persoana (inscriere)
+check        - Verifica daca o persoana este inscrisa la eveniment
+remove       - Sterge o persoana existenta din lista
+update       - Actualizeaza detaliile unei persoane
+guests       - Lista de persoane care participa la eveniment
+waitlist     - Persoanele din lista de asteptare
+available    - Numarul de locuri libere
+guests_no    - Numarul de persoane care participa la eveniment
+waitlist_no  - Numarul de persoane din lista de asteptare
+subscribe_no - Numarul total de persoane inscrise
+search       - Cauta toti invitatii conform sirului de caractere introdus
+quit         - Inchide aplicatia
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+guests_no
+Numarul de participanti: 3
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+waitlist_no
+Dimensiunea listei de asteptare: 1
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+add
+Se adauga o noua persoana...
+Introduceti numele de familie:
+Herescu
+Introduceti prenumele:
+Haralambie
+Introduceti email:
+haralambie@yahoo.com
+Introduceti numar de telefon (format „+40733386463“):
++40751963745
+[Herescu Haralambie] Te-ai inscris cu succes in lista de asteptare si ai primit numarul de ordine 2. Te vom notifica daca un loc devine disponibil.
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+waitlist_no
+Dimensiunea listei de asteptare: 2
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+subscribe_no
+Numarul total de persoane: 5
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+search
+Introduceti subsirul cautat: 
+paula
+Persoana care contin subisrul introdus: 
+	Nume: Oprea Alexandra, Email: paula.oprea@gmail.com, Telefon: +40723657841
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+search
+Introduceti subsirul cautat: 
+45
+Persoana care contin subisrul introdus: 
+	Nume: Georgescu Mara, Email: mara.georgescu@yahoo.fr, Telefon: +40798452162
+	Nume: Herescu Haralambie, Email: haralambie@yahoo.com, Telefon: +40751963745
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+search
+Introduceti subsirul cautat: 
+.fr
+Persoana care contin subisrul introdus: 
+	Nume: Georgescu Mara, Email: mara.georgescu@yahoo.fr, Telefon: +40798452162
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+available
+Numarul de locuri ramase: 0
+Asteapta comanda: (help - Afiseaza lista de comenzi)
+quit
+BUILD SUCCESSFUL (total time: 9 minutes 46 seconds)
